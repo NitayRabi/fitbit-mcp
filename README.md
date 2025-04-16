@@ -15,7 +15,7 @@ For JSON configuration (for use with AI assistant frameworks):
 ```json
 {
   "command": "npx",
-  "args": ["fitbit-mcp", "--stdio"],
+  "args": ["-y", "fitbit-mcp", "--stdio"],
   "env": {
     "FITBIT_ACCESS_TOKEN": "YOUR_FITBIT_ACCESS_TOKEN"
   }
@@ -27,7 +27,7 @@ Or with arguments instead of environment variables:
 ```json
 {
   "command": "npx",
-  "args": ["fitbit-mcp", "--stdio", "--fitbit-token=YOUR_FITBIT_ACCESS_TOKEN"]
+  "args": ["-y", "fitbit-mcp", "--stdio", "--fitbit-token=YOUR_FITBIT_ACCESS_TOKEN"]
 }
 ```
 
