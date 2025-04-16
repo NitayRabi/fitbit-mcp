@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) implementation for Fitbit, enabling AI assistants to access and analyze your Fitbit health and fitness data.
 
-## Installation
+## Usage
 
 ```bash
 npm install -g fitbit-mcp
@@ -10,17 +10,25 @@ npm install -g fitbit-mcp
 
 ## Usage
 
-To use this MCP with AI assistants, you'll need a Fitbit OAuth access token.
+For JSON configuration (for use with AI assistant frameworks):
 
-```bash
-fitbit-mcp --fitbit-token=YOUR_FITBIT_ACCESS_TOKEN
+```json
+{
+  "command": "npx",
+  "args": ["fitbit-mcp", "--stdio"],
+  "env": {
+    "FITBIT_ACCESS_TOKEN": "YOUR_FITBIT_ACCESS_TOKEN"
+  }
+}
 ```
 
-Alternatively, you can set the access token as an environment variable:
+Or with arguments instead of environment variables:
 
-```bash
-export FITBIT_ACCESS_TOKEN=YOUR_FITBIT_ACCESS_TOKEN
-fitbit-mcp
+```json
+{
+  "command": "npx",
+  "args": ["fitbit-mcp", "--stdio", "--fitbit-token=YOUR_FITBIT_ACCESS_TOKEN"]
+}
 ```
 
 ## Available Tools
