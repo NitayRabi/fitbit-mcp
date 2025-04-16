@@ -4,12 +4,6 @@ A Model Context Protocol (MCP) implementation for Fitbit, enabling AI assistants
 
 ## Usage
 
-```bash
-npm install -g fitbit-mcp
-```
-
-## Usage
-
 For JSON configuration (for use with AI assistant frameworks):
 
 ```json
