@@ -1,4 +1,5 @@
 # Fitbit MCP (Model Context Protocol)
+[![smithery badge](https://smithery.ai/badge/@NitayRabi/fitbit-mcp)](https://smithery.ai/server/@NitayRabi/fitbit-mcp)
 
 A Model Context Protocol (MCP) implementation for Fitbit, enabling AI assistants to access and analyze your Fitbit health and fitness data.
 
