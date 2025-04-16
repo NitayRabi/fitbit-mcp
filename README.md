@@ -70,6 +70,8 @@ Contributions are welcome! Here's how you can contribute:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+Every pull request triggers a GitHub Actions workflow that verifies the build process.
+
 ### Development Setup
 
 ```bash
@@ -87,6 +89,16 @@ npm run build
 npm run dev
 ```
 
+### Release Process
+
+To publish a new version to NPM:
+
+1. Update the version in `package.json`
+2. Create a new GitHub release with a tag like `v1.0.1`
+3. The GitHub Actions workflow will automatically build and publish the package to NPM
+
+Make sure you have the `NPM_TOKEN` secret configured in your GitHub repository settings.
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. # fitbit-mcp
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
