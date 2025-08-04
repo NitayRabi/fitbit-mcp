@@ -16,7 +16,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build",
-    "dev": "ts-node src/index.ts",
+    "dev": "tsx src/index.ts",
     "setup": "npm install"
   },
   "keywords": [
@@ -38,6 +38,7 @@
     "@types/minimist": "^1.2.5",
     "@types/node": "^20.11.5",
     "ts-node": "^10.9.2",
+    "tsx": "4.20.3",
     "typescript": "^5.3.3"
   },
   "engines": {
