@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nitayrabi-fitbit-mcp-badge.png)](https://mseep.ai/app/nitayrabi-fitbit-mcp)
+
 # Fitbit MCP (Model Context Protocol)
 [![smithery badge](https://smithery.ai/badge/@NitayRabi/fitbit-mcp)](https://smithery.ai/server/@NitayRabi/fitbit-mcp)
 
