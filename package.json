@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Fitbit Model Context Protocol integration for AI assistants",
   "main": "dist/index.js",
+  "module": "./src/index.ts",
   "type": "module",
   "bin": {
     "fitbit-mcp": "dist/index.js"
