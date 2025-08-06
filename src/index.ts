@@ -13,8 +13,8 @@ export { configSchema };
 
 // Fallback for stdio mode (when not running in Smithery)
 async function main() {
-  // Check if running directly (not in Smithery) using ES module equivalent
-  if (import.meta.url === `file://${process.argv[1]}`) {
+  // Check if running directly (not in Smithery) by checking if this is the main module
+  if (process.argv[1] && process.argv[1].endsWith('index.ts') || process.argv[1]?.endsWith('index.js')) {
     await initServer().stdioServer();
   }
 }
